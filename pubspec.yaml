@@ -1,0 +1,83 @@
+name: Khotab_Encyclopedia
+description: M2y Developers Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_mobile_ads: any
+  sqflite: any
+  siri_wave: ^0.3.0
+  webview_flutter: any
+  #shared_preferences: ^2.1.2
+  music_visualizer: ^1.0.2
+  ringtone_set: ^0.0.3 
+  permission_handler: ^10.2.0
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  just_audio: ^0.9.31
+  audio_service: ^0.18.9
+  anim_search_bar: ^2.0.3
+  animated_bottom_navigation_bar: ^1.2.0
+  just_audio_background: any
+  
+  intl: ^0.17.0
+  awesome_dialog: ^3.0.2
+  upgrader: ^4.0.0
+  animate_do: ^2.1.0
+  url_launcher: ^6.0.20
+  bottom_picker: ^2.0.1
+  http: ^0.13.5 # for get parts from HTML
+  
+  puppeteer: ^2.24.0     # for do JavaScript Code in side the webview
+  beautiful_soup_dart: ^0.3.0 # for cover beautiful_soup_ for python
+  fluttertoast: ^8.2.1
+  auto_size_text: ^3.0.0
+  
+  share: any
+  file_picker: any
+  path_provider: any
+  ez_flutter: ^0.7.2
+  path: ^1.6.4
+  on_audio_query: ^2.9.0
+  #equalizer: ^0.0.2+2
+  another_xlider: ^1.1.2
+  flutter_ringtone_player: ^3.2.0
+  csv: ^5.0.2
+  #flutter_webview_plugin: ^0.4.0
+  appwrite: ^8.1.0
+  
+  
+
+# dev dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.0"
+#flutter pub get
+#flutter pub run flutter_launcher_icons:main
+flutter_icons:
+  image_path: "assets/icon.jpg"
+  android: true
+  ios: true
+
+  
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+     - assets/MEDIA/ 
+     - assets/stations/
+     - assets/
+     - assets/images/
+     - assets/DBf.db
